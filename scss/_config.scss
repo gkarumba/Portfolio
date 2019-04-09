@@ -1,5 +1,5 @@
 $primary-color: #444;
-$secondary-color: #eece1a;
+$secondary-color: #DAA520;
 $show-home-image: true;
 $home-image: "/dist/img";
 $background-opacity: 0.9;
@@ -11,7 +11,7 @@ $background-opacity: 0.9;
 @mixin background {
     @if $show-home-image {
         &#bg-img {
-            background: url("#{$home-image}/caliph\ harun.jpg");
+            background: url("#{$home-image}/Islams-Golden-age.jpg");
             background-attachment: fixed;
             background-size: cover;
             
